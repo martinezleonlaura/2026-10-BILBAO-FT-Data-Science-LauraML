@@ -31,8 +31,8 @@ def jugar():
         while turno_jugador:
             print(f"Tu turno, {nombre_usuario}")
     #Solicita las coordenadas
-            x = tablero_humano.solicitar_coordenada("Fila (x)")
-            y = tablero_humano.solicitar_coordenada("Columna (y)")
+            x = funciones.solicitar_coordenada("Fila (x)")
+            y = funciones.solicitar_coordenada("Columna (y)")
 
     #Dispara sobre el tablero
             resultado = tablero_maquina.disparo_coordenada(x,y)
@@ -88,8 +88,8 @@ def jugar():
                     continue        #Bucle while, salta arriba y vuelve a empezar
 
 
-if __name__ == "__main__":
-    jugar()
+        if __name__ == "__main__":
+            jugar()
 
 
 
