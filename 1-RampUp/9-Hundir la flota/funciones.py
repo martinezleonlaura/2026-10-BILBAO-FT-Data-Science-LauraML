@@ -1,4 +1,6 @@
-from variables import DIMENSION
+from variables import DIMENSION, BARCOS, SIMBOLO_AGUA, SIMBOLO_BARCO, SIMBOLO_TOCADO, SIMBOLO_FALLO
+import random
+import pprint
 
 
 def iniciar_juego(): 
@@ -36,6 +38,7 @@ def iniciar_juego():
                 print(f"En cada turno disparas a una coordenada (x,y) del tablero adversario. **Si aciertas, te vuelve a tocar**. En caso contrario, le toca a la máquina.")
                 print(f"En los turnos de la máquina, si acierta también le vuelve a tocar.")
                 print(f"Si se hunden todos los barcos de un jugador, el juego acaba y gana el otro.")
+                print()
 
             case 3:
                 print()
@@ -44,18 +47,3 @@ def iniciar_juego():
 
             case _:
                 (f"Opción incorrecta, introduzca un número entero válido (1: Jugar, 2: Mostrar instrucciones o 3: Salir)")
-
-
-def solicitar_coordenada(self, elemento_coordenada: str):
-    ''' 
-    Método para pedir coordenada y comprobar que es un entero. x = fila, y = columna.
-    Que este entre 0 y 9 (DIMENSION - 1) lo hace en otra parte del código.
-    '''
-    while True:
-        try:
-            valor = int(input(f"Introduzca {elemento_coordenada} (0-{self.dimension - 1})"))
-            return valor
-        except ValueError:
-            print("El valor introducido no es válido. Por favor, introduce un número entero.")
- 
- 

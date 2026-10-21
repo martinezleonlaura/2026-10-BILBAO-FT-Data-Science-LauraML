@@ -1,15 +1,17 @@
-import variables as variables
-from clases import Tablero
-import funciones as funciones
+from variables import *
+from clases import *
+from funciones import *
+import random
+import pprint
 
 def jugar():
 #Muestra el menú inicial def en la fn "iniciar_juego" uy procesa la opción elegida
-    decision = funciones.iniciar_juego()
+    decision = iniciar_juego()
     if decision == "SALIR":
         return
 
 #Si la opción elegida NO es "SALIR" crea los tableros
-    nombre_usuario = input(f"Introduce tu nombre, corsario. En caso contrario, pulsa enter.")
+    nombre_usuario = input(f"Introduce tu nombre, corsario. En caso contrario, pulsa enter.").upper()
     if not nombre_usuario:   
         nombre_usuario = "Usuario"
     
@@ -25,17 +27,21 @@ def jugar():
     tablero_humano.mostrar_tablero()
 
 #Comienza la partida. COMIENZA EL USUARIO!!!
-    while True:   
-        turno_jugador = True
+    while True: 
+        turno_jugador = True  
         
         while turno_jugador:
-            print(f"Tu turno, {nombre_usuario}")
-    #Solicita las coordenadas
-            x = funciones.solicitar_coordenada("Fila (x)")
-            y = funciones.solicitar_coordenada("Columna (y)")
+            print()
+            print(f"Tu registro de disparos:")
+            tablero_maquina.mostrar_tablero(solo_disparos=True)
 
-    #Dispara sobre el tablero
-            resultado = tablero_maquina.disparo_coordenada(x,y)
+            print(f"Tu turno, {nombre_usuario}")
+            #Solicita las coordenadas
+            x = tablero_humano.solicitar_coordenada("Fila (x)")
+            y = tablero_humano.solicitar_coordenada("Columna (y)")
+
+            #Dispara sobre el tablero
+            resultado, barco_afectado = tablero_maquina.disparo_coordenada(x,y)
 
             match resultado:
                 case "TOCADO":
@@ -65,14 +71,17 @@ def jugar():
         while turno_maquina:
             print(f"Turno de la máquina.")
 
-            resultado = funciones.turno_maquina(tablero_humano)
+            x_maquina = random.randint(0, DIMENSION - 1)
+            y_maquina = random.randint(0, DIMENSION - 1)
 
-            match resultado:
+            disparo_maquina, barco_afectado = tablero_humano.disparo_coordenada(x_maquina,y_maquina)
+
+            match disparo_maquina:
                 case "TOCADO":
-                    print (f"¡¡¡TOCADO!!!")
+                    print (f"¡¡¡TOCADO!!! La máquina a tocado uno de tus barcos. Sigue jugando.")
 
                 case "HUNDIDO":
-                    print (f"¡¡¡TOCADO y HUNDIDO!!! La máquina ha hundido {barco_afectado}")
+                    print (f"¡¡¡TOCADO y HUNDIDO!!! La máquina ha hundido uno de tus barcos")
                     if not tablero_humano.quedan_barcos():
                         print(f"Con este, la máquina ha hundido todos tus barcos. YOU LOSE!!!")
                         return      #Rompe el bucle while y se acaba la partida
@@ -88,10 +97,5 @@ def jugar():
                     continue        #Bucle while, salta arriba y vuelve a empezar
 
 
-        if __name__ == "__main__":
-            jugar()
-
-
-
-
-
+if __name__ == "__main__":
+    jugar()
