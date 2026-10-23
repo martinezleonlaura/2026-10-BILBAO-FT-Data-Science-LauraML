@@ -78,15 +78,17 @@ class Tablero:
                 self.tablero_barcos[i][y] = SIMBOLO_BARCO
 
 
-    def mostrar_tablero(self):
+    def mostrar_tablero(self, solo_disparos=False):
         ''' 
         Método para mostrar el tablero de los barcos colocados en pantalla.
         '''
+        if not solo_disparos:
+            print()
+            print(f"******TABLERO DE BARCOS DE {self.jugador.upper()}******")
+            pprint.pprint(self.tablero_barcos)
+
         print()
-        print(f"******TABLERO DE BARCOS DE {self.jugador.upper()}******")
-        pprint.pprint(self.tablero_barcos)
-        print()
-        print(f"*****TABLERO DE DISPAROS DE {self.jugador.upper()}*****")
+        print(f"*****TABLERO DE DISPAROS*****")
         pprint.pprint(self.tablero_disparos)
 
 
@@ -145,3 +147,17 @@ class Tablero:
 
             resultado, barco_afectado = tablero_jugador.disparo_coordenada(x,y)     
             return resultado, barco_afectado
+
+    def solicitar_coordenada(self, elemento_coordenada: str):
+        ''' 
+        Método para pedir coordenada y comprobar que es un entero. x = fila, y = columna.
+        Que este entre 0 y 9 (DIMENSION - 1) lo hace en otra parte del código.
+        '''
+        while True:
+            try:
+                valor = int(input(f"Introduzca {elemento_coordenada} (0-{self.dimension - 1})"))
+                if 0 <= valor < self.dimension:
+                    return valor
+                print(f"La coordenada ({elemento_coordenada}) está fuera del tablero.")
+            except ValueError:
+                print("El valor introducido no es válido. Por favor, introduce un número entero.")
