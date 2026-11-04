@@ -110,7 +110,7 @@ JOIN albums ON albums.AlbumId = tracks.AlbumId
 JOIN genres ON genres.GenreId = tracks.GenreId;
 
 -- 6. Cuántas canciones hay en cada playlist
-SELECT playlists.Name, COUNT(playlist_track.TrackId)
+SELECT playlists.Name, playlists.PlaylistId, COUNT(playlist_track.TrackId)
 FROM playlist_track
 JOIN playlists ON playlists.PlaylistId = playlist_track.PlaylistId
 GROUP BY playlists.PlaylistId;
