@@ -238,7 +238,7 @@ def plot_plano_real_plancha(dataframe):
     edgecolor='none', 
     s=45) 
     #Ajusto títulos y etiquetas con las unidades y orientaciones del mundo real
-    plt.title("Vista Superior de Planta: Distribución Geométrica de Defectos en las Planchas", fontsize=14, fontweight='bold', pad=15)
+    plt.title("Distribución Geométrica de Defectos en las Planchas", fontsize=14, fontweight='bold', pad=15)
     plt.xlabel("Largo de la Plancha en la Línea de Avance (mm)", fontsize=12)
     plt.ylabel("Ancho de la Plancha (mm)", fontsize=12)
     #Establezco los límites físicos reales del material
