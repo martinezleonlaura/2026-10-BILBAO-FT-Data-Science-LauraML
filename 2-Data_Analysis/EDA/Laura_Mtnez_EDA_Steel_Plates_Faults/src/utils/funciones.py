@@ -97,49 +97,72 @@ def agrupar_espesores(espesor):
 
 
 #Fn aux para análisis UNIVARIANTE
+
+def plot_porcentaje_defectos(dataframe):
+    #Calculo frecuencias absolutas y porcentajes
+    #Paso el conteo a un DataFrame limpio
+    frecuencias = dataframe["Tipo_Defecto"].value_counts().reset_index()
+    frecuencias.columns = ["Tipo_Defecto", "Porcentaje"]
+    #Calculo el porcentaje sobre el total de registros (incluyendo Other_Faults)
+    total_defectos = frecuencias["Porcentaje"].sum()
+    frecuencias["Porcentaje"] = (frecuencias["Porcentaje"] / total_defectos) * 100
+    #Configuro el lienzo de la gráfica
+    fig, ax = plt.subplots(figsize=(12, 6))
+    #Dibujo las barras
+    sns.barplot(x="Tipo_Defecto", y="Porcentaje", data=frecuencias, ax=ax, color="grey", edgecolor="black", linewidth=1.2)
+    # Configuro títulos y etiquetas de los ejes
+    ax.set_title("Impacto por Tipo de Defecto", fontsize=14, fontweight="bold", pad=15)
+    ax.set_xlabel("Tipo de Defecto", fontsize=12, labelpad=10)
+    ax.set_ylabel("Porcentaje (%)", fontsize=12, labelpad=10)
+    #Ajusto el límite del eje Y para que no se corten las etiquetas de texto
+    ax.set_ylim(0, frecuencias["Porcentaje"].max() + 5)
+    #Roto las etiquetas del eje X para que no se solapen
+    ax.tick_params(axis="x", rotation=40)
+    #Añado las etiquetas de porcentaje justo encima de cada barra
+    for p in ax.patches:
+        ax.annotate(
+            f"{p.get_height():.1f}%",
+            (p.get_x() + p.get_width() / 2.0, p.get_height() + 0.3), ha="center", va="center", fontsize=11, fontweight="bold", color="black")
+    #Ajusto márgenes para evitar cortes en textos
+    plt.tight_layout()
+    plt.show()
+
 def pareto_defectos(dataframe):
-    #Elimino "Otro" por completo del flujo de datos
-    df_filtrado = dataframe[dataframe['Tipo_Defecto'] != 'Otro'].copy()
-    #Cuento las frecuencias absolutas de lo que queda
-    #reset_index() asegura un nuevo DataFrame limpio y aislado
-    frecuencias = df_filtrado['Tipo_Defecto'].value_counts().reset_index()
-    frecuencias.columns = ['Tipo_Defecto', 'Cantidad']
-    #RECALCULO REAL: El 100% ahora es SOLO la suma de los defectos identificables
-    total_defectos_identificables = frecuencias['Cantidad'].sum()
-    frecuencias['Porcentaje'] = (frecuencias['Cantidad'] / total_defectos_identificables) * 100
-    frecuencias['Porcentaje_Acumulado'] = frecuencias['Porcentaje'].cumsum()
-    #Configuro del lienzo principal (Barras)
+    #Defino la lista de defectos reales EXCLUYENDO 'Otro'
+    defectos_reales = ["Pliegue", "Raya", "Surco", "Mancha", "Suciedad", "Abolladura"]
+    #Filtro el dataframe para quedarme solo con estas categorías reales
+    df_filtrado = dataframe[dataframe["Tipo_Defecto"].isin(defectos_reales)]
+    #Calculo frecuencias absolutas de las 6 categorías y ordeno
+    frecuencias = df_filtrado["Tipo_Defecto"].value_counts().reset_index()
+    frecuencias.columns = ["Tipo_Defecto", "Conteo"]
+    #Calculo el nuevo porcentaje relativo sobre este nuevo subtotal y el acumulado
+    total_reales = frecuencias["Conteo"].sum()
+    frecuencias["Porcentaje"] = (frecuencias["Conteo"] / total_reales) * 100
+    frecuencias["Porcentaje_Acumulado"] = frecuencias["Porcentaje"].cumsum()
+    #Configuro el lienzo de la gráfica
     fig, ax1 = plt.subplots(figsize=(12, 6))
-    sns.barplot(
-        x='Tipo_Defecto', 
-        y='Porcentaje', 
-        data=frecuencias, 
-        ax=ax1, 
-        color='darkgrey', 
-        edgecolor='black')
-    ax1.set_title("Diagrama de Pareto (Porcentajes Recalculados sin 'Otro')", fontsize=14, fontweight='bold', pad=15)
-    ax1.set_xlabel("Tipo de Defecto", fontsize=12)
-    ax1.set_ylabel("Porcentaje Individual (%)", fontsize=12)
-    ax1.set_ylim(0, 110)
-    ax1.tick_params(axis='x', rotation=30)
-    #Añado porcentajes individuales sobre las barras
-    for p in ax1.patches:
-        ax1.annotate(f'{p.get_height():.1f}%', 
-                    (p.get_x() + p.get_width() / 2., p.get_height() + 1.5), 
-                    ha='center', va='center', fontsize=10, fontweight='bold')
-    #Eje secundario para la curva acumulada
+    #Dibujo las barras (eje Y izquierdo)
+    sns.barplot(x="Tipo_Defecto", y="Porcentaje", data=frecuencias, ax=ax1, color="grey", edgecolor="black", linewidth=1.2)
+    #Configuro el eje secundario para la línea de Pareto (eje Y derecho)
     ax2 = ax1.twinx()
-    ax2.plot(frecuencias['Tipo_Defecto'], frecuencias['Porcentaje_Acumulado'], color='crimson', marker='o', linewidth=2, label='% Acumulado')
-    ax2.set_ylabel("Porcentaje Acumulado (%)", fontsize=12)
-    ax2.set_ylim(0, 110)
-    #Añado los puntos numéricos del nuevo acumulado
-    for i, txt in enumerate(frecuencias['Porcentaje_Acumulado']):
-        ax2.annotate(f'{txt:.1f}%', (i, frecuencias['Porcentaje_Acumulado'].iloc[i] + 2),
-                     color='crimson', weight='bold', ha='center', fontsize=9)
-    #Línea crítica del 80% ajustada
-    ax2.axhline(80, color='red', linestyle='--', linewidth=1.5, alpha=0.8)
-    ax2.text(0.05, 82, "Umbral Crítico de Pareto (80%)", color='red', fontsize=10, weight='bold',
-             transform=ax2.get_xaxis_transform())
+    ax2.plot(frecuencias["Tipo_Defecto"], frecuencias["Porcentaje_Acumulado"], color="red", marker="o", linewidth=2, markersize=6)
+    #Añado la línea de corte de Pareto al 80% (Eje secundario)
+    ax2.axhline(y=80, color="darkblue", linestyle="--", linewidth=1.8)  
+    #Texto de la línea de corte al 80%
+    ax2.annotate("Línea de Corte (80%)", xy=(len(frecuencias) - 1, 80), xytext=(0, 5), textcoords="offset points", ha="right", va="bottom", color="darkblue", fontsize=10, fontweight="bold")
+    #Ajustes estéticos y límites de los ejes (Ambos fijados al 105% para simetría)
+    ax1.set_title("Diagrama de Pareto", fontsize=14, fontweight="bold", pad=15)
+    ax1.set_xlabel("Tipo de Defecto", fontsize=12, labelpad=10)
+    ax1.set_ylabel("Porcentaje Relativo (%)", fontsize=12, labelpad=10)
+    ax2.set_ylabel("Porcentaje Acumulado (%)", fontsize=12, labelpad=10)
+    ax1.set_ylim(0, 105)
+    ax2.set_ylim(0, 105)
+    ax1.tick_params(axis="x", rotation=40)
+    #Añado las etiquetas de porcentaje relativo sobre cada barra
+    for p in ax1.patches:
+        ax1.annotate(f"{p.get_height():.1f}%", (p.get_x() + p.get_width() / 2.0, p.get_height() + 1.5), ha="center", va="center", fontsize=10, fontweight="bold", color="black")
+    #Añad0 las etiquetas con el valor acumulado en los puntos rojos
+    for i, val in enumerate(frecuencias["Porcentaje_Acumulado"]): ax2.annotate(f"{val:.1f}%", (i, val - 3.5), xytext=(0, 10), textcoords="offset points", ha="center", va="center", fontsize=10, fontweight="bold", color="red")
     plt.tight_layout()
     plt.show()
 
@@ -149,7 +172,6 @@ def pareto_defectos(dataframe):
 def acero_vs_defecto(dataframe, tipo_grafico='agrupado'):
     #Creo la tabla de contingencia SIN los márgenes 'All' para no alterar el gráfico
     tabla_cruce = pd.crosstab(dataframe['Tipo_Acero'], dataframe['Tipo_Defecto'])
-
     #Convierto los valores absolutos a porcentajes por cada Tipo de Acero (filas)
     # Esto equilibra la comparación ya que hay más placas A400 que A300
     tabla_porcentajes = tabla_cruce.div(tabla_cruce.sum(axis=1), axis=0) * 100
@@ -167,7 +189,7 @@ def acero_vs_defecto(dataframe, tipo_grafico='agrupado'):
     plt.title(f"Defectos vs Tipo de Acero", fontsize=14, fontweight='bold', pad=15)
     plt.xlabel("Tipo de Acero", fontsize=12)
     plt.xticks(rotation=0)  # Mantiene las etiquetas A300 y A400 horizontales y legibles
-    plt.ylim(0, 105)
+    plt.ylim(0, 40)
     #Coloco la leyenda de los defectos fuera del gráfico para que no tape las barras
     plt.legend(title="Tipo de Defecto", bbox_to_anchor=(1.02, 1), loc='upper left')
     plt.grid(axis='y', linestyle='--', alpha=0.3)
@@ -175,6 +197,11 @@ def acero_vs_defecto(dataframe, tipo_grafico='agrupado'):
     plt.show()
 
 def espesor_vs_defecto(dataframe, paleta="tab10"):
+    #Defino el orden lógico que deseas (tal y como salen de tu función agrupar_espesores)
+    orden_espesor = ["Fino (<= 60mm)", "Medio (61mm - 150mm)", "Grueso / Industrial (> 150mm)"]
+    #Conviert la columna a tipo categórico con el orden establecido
+    #Esto asegura que Pandas y el crosstab respeten siempre este orden
+    dataframe["Rango_Espesor"] = pd.Categorical(dataframe["Rango_Espesor"], categories=orden_espesor, ordered=True)
     #Creo la tabla cruzada sin incluir los totales/márgenes
     tabla_cruce = pd.crosstab(dataframe['Rango_Espesor'], dataframe['Tipo_Defecto'])
     #Normalizo al 100% dividiendo cada celda por el total de su fila
@@ -249,5 +276,3 @@ def plot_multivariante_heatmap(dataframe, lista_columnas):
               fontsize=14, fontweight='bold', pad=15)
     plt.tight_layout()
     plt.show()
-
-
