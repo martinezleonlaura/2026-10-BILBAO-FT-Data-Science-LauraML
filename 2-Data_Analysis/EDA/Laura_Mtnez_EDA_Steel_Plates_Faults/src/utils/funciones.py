@@ -67,12 +67,12 @@ def detectar_outliers(dataframe, lista_columnas):
 
 #Fn aux para asignar el tipo de acero
 def asignar_tipo_acero(fila):
-    if fila['TypeOfSteel_A300'] == 1:
-            return "A300"
-    elif fila['TypeOfSteel_A400'] == 1:
-        return "A400"
+    if fila['A300'] == 1:
+            return 'A300'
+    elif fila['A400'] == 1:
+        return 'A400'
     else:
-        return "Otro / No Especificado"
+        return 'Otro / No Especificado'
 
 
 
@@ -88,73 +88,58 @@ def asignar_tipo_defecto(fila, lista_defectos):
 #Fn aux para agrupa espesores
 def agrupar_espesores(espesor):
     if espesor <= 60:
-        return "1 Fino (<= 60mm)"
+        return "Fino (<= 60mm)"
     elif espesor <= 150:
-        return "2 Medio (61mm - 150mm)"
+        return "Medio (61mm - 150mm)"
     else:
-        return "3 Grueso / Industrial (> 150mm)"
+        return "Grueso / Industrial (> 150mm)"
 
 
 
 #Fn aux para análisis UNIVARIANTE
-def plot_porcentaje_defectos(dataframe, columna_defecto='Tipo_Defecto', color='royalblue'):
-    plt.figure(figsize=(10, 5))
-    #Calculo los porcentajes
-    counts = dataframe[columna_defecto].value_counts()
-    percentages = (counts / len(dataframe)) * 100
-    #Creo el gráfico
-    ax = sns.barplot(x=percentages.index, y=percentages.values, color='grey', edgecolor='black')
-    plt.title("Impacto por Tipo de Defecto (% sobre el total de fallas)", fontsize=14, fontweight='bold', pad=15)
-    plt.xlabel("Tipo de Defecto", fontsize=12)
-    plt.ylabel("Porcentaje (%)", fontsize=12)
-    plt.xticks(rotation=45, ha='right')
-    plt.ylim(0, percentages.max() + 5)
-    #Añado las etiquetas de porcentaje sobre cada barra
-    for p in ax.patches:
-        ax.annotate(f'{p.get_height():.1f}%', 
-                    (p.get_x() + p.get_width() / 2., p.get_height() + 0.5), 
-                    ha='center', va='center', fontsize=10, fontweight='bold', color='black')           
-    plt.tight_layout()
-    plt.show()
-
 def pareto_defectos(dataframe):
-    #Filtro para quedarnos solo con los defectos identificables
-    df_filtrado = dataframe[dataframe['Tipo_Defecto'] != 'Other_Faults']
-    #Calculo frecuencias absolutas y porcentajes ordenados
-    frecuencias = df_filtrado['Tipo_Defecto'].value_counts().to_frame()
-    frecuencias.columns = ['Cantidad']
-    frecuencias['Porcentaje'] = (frecuencias['Cantidad'] / frecuencias['Cantidad'].sum()) * 100
+    #Elimino "Otro" por completo del flujo de datos
+    df_filtrado = dataframe[dataframe['Tipo_Defecto'] != 'Otro'].copy()
+    #Cuento las frecuencias absolutas de lo que queda
+    #reset_index() asegura un nuevo DataFrame limpio y aislado
+    frecuencias = df_filtrado['Tipo_Defecto'].value_counts().reset_index()
+    frecuencias.columns = ['Tipo_Defecto', 'Cantidad']
+    #RECALCULO REAL: El 100% ahora es SOLO la suma de los defectos identificables
+    total_defectos_identificables = frecuencias['Cantidad'].sum()
+    frecuencias['Porcentaje'] = (frecuencias['Cantidad'] / total_defectos_identificables) * 100
     frecuencias['Porcentaje_Acumulado'] = frecuencias['Porcentaje'].cumsum()
-    #Configuro el lienzo principal (Barras)
+    #Configuro del lienzo principal (Barras)
     fig, ax1 = plt.subplots(figsize=(12, 6))
     sns.barplot(
-        x=frecuencias.index, 
-        y=frecuencias['Porcentaje'], 
+        x='Tipo_Defecto', 
+        y='Porcentaje', 
+        data=frecuencias, 
         ax=ax1, 
         color='darkgrey', 
         edgecolor='black')
-    ax1.set_title("Diagrama de Pareto: Foco Estratégico de Defectos Identificados", fontsize=14, fontweight='bold', pad=15)
+    ax1.set_title("Diagrama de Pareto (Porcentajes Recalculados sin 'Otro')", fontsize=14, fontweight='bold', pad=15)
     ax1.set_xlabel("Tipo de Defecto", fontsize=12)
     ax1.set_ylabel("Porcentaje Individual (%)", fontsize=12)
     ax1.set_ylim(0, 110)
     ax1.tick_params(axis='x', rotation=30)
-    #Añado los porcentajes individuales sobre cada barra
+    #Añado porcentajes individuales sobre las barras
     for p in ax1.patches:
         ax1.annotate(f'{p.get_height():.1f}%', 
                     (p.get_x() + p.get_width() / 2., p.get_height() + 1.5), 
                     ha='center', va='center', fontsize=10, fontweight='bold')
-    #Creo el segundo eje Y para la línea acumulada (Curva de Pareto)
+    #Eje secundario para la curva acumulada
     ax2 = ax1.twinx()
-    ax2.plot(frecuencias.index, frecuencias['Porcentaje_Acumulado'], color='crimson', marker='o', linewidth=2, label='% Acumulado')
+    ax2.plot(frecuencias['Tipo_Defecto'], frecuencias['Porcentaje_Acumulado'], color='crimson', marker='o', linewidth=2, label='% Acumulado')
     ax2.set_ylabel("Porcentaje Acumulado (%)", fontsize=12)
     ax2.set_ylim(0, 110)
-    #Añado los puntos numéricos del acumulado
+    #Añado los puntos numéricos del nuevo acumulado
     for i, txt in enumerate(frecuencias['Porcentaje_Acumulado']):
-        ax2.annotate(f'{txt:.1f}%', (frecuencias.index[i], frecuencias['Porcentaje_Acumulado'].iloc[i] + 2),
+        ax2.annotate(f'{txt:.1f}%', (i, frecuencias['Porcentaje_Acumulado'].iloc[i] + 2),
                      color='crimson', weight='bold', ha='center', fontsize=9)
-    #Dibujo la línea crítica del 80% (Ley de Pareto)
+    #Línea crítica del 80% ajustada
     ax2.axhline(80, color='red', linestyle='--', linewidth=1.5, alpha=0.8)
-    ax2.text(0.5, 82, "Umbral Crítico de Pareto (80%)", color='red', fontsize=10, weight='bold')
+    ax2.text(0.05, 82, "Umbral Crítico de Pareto (80%)", color='red', fontsize=10, weight='bold',
+             transform=ax2.get_xaxis_transform())
     plt.tight_layout()
     plt.show()
 
