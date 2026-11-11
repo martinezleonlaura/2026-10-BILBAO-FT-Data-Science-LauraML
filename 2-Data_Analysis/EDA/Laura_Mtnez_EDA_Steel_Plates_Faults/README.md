@@ -75,16 +75,29 @@ Para desplegar la solución comercial (Fase II), se propone una **arquitectura d
 
 ---
 
-## 6. Estructura del Repositorio
+## 6. Estructura del Repositorio (src)
 
-├── data/
-│   └── steel-faults.csv       # Dataset original de inspección de acero
-├── utils/
-│   └── funciones.py           # Funciones de limpieza, outliers, test y gráficos
-├── notebooks/
-│   └── eda_control_calidad.ipynb   # Jupyter Notebook con el desarrollo analítico completo
-├── Presentación.pptx          # Diapositivas comerciales orientadas a la Dirección
-└── README.md                  # Presentación del proyecto e impactos
+├── src /        
+
+	└── data/
+
+	│   └── steel-faults.csv       # Dataset original de inspección de acero
+
+	├── notebooks/
+
+	    └── pruebas_exploracion.ipynb   # Jupyter Notebook con el desarrollo de las pruebas iniciales
+
+	├── utils/
+
+	│   └── funciones.py           # Funciones de limpieza, outliers, test y gráficos
+
+	└── main.ipynb          # Jupyter Notebook con el desarrollo analítico completo
+
+├── Memoria.docx          # Memoria del Proyecto en Word
+
+├── Presentación.pptx          # Presentación de los Resultados en PowerPoint
+
+└── README.md                  # Archivo README
 
 ---
 
