@@ -95,6 +95,8 @@ Para desplegar la solución comercial (Fase II), se propone una **arquitectura d
 
 ├── Memoria.docx          # Memoria del Proyecto en Word
 
+├── Memoria.pdf          # Memoria del Proyecto en PDF
+
 ├── Presentación.pptx          # Presentación de los Resultados en PowerPoint
 
 └── README.md                  # Archivo README
