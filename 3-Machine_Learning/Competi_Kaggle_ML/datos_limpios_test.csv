@@ -1,0 +1,392 @@
+id;Company;Product;TypeName;Inches;Ram_GB;OpSys;Res_Ancho;Res_Alto;Touchscreen;IPS;PPI;Cpu_GHz;Cpu_Alto_Rendimiento;Cpu_Gama;SSD_GB;HDD_GB;Hybrid_GB;Gpu_Marca;Gpu_Gama;Weight
+824;Lenovo;ThinkPad X1;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.13
+101;HP;15-bw000nv;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;1.5;0;AMD;0;500;0;AMD;AMD Estándar;2.1
+1157;Lenovo;ThinkPad T460s;Ultrabook;14.0;12;Windows 7;1920;1080;0;0;157.3505121487356;2.6;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.4
+940;HP;Omen 17-W006na;Gaming;17.3;8;Windows 10;1920;1080;0;1;127.33567457123111;2.3;1;Intel Core i5;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.75
+853;Lenovo;ThinkPad T470p;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.8;1;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.96
+650;Asus;ROG G701VI;Gaming;17.3;32;Windows 10;1920;1080;0;1;127.33567457123111;2.7;1;Intel Core i7;512;0;0;Nvidia;Nvidia Gaming (GTX/RTX);3.8
+317;Lenovo;ThinkPad 13;Notebook;13.3;4;Chrome OS;1366;768;0;0;117.82653006268643;1.6;0;Otro Intel;16;0;0;Intel;Intel Integrada;1.45
+217;HP;Probook 440;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;1.8;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.63
+489;Asus;Zenbook UX390UA;Ultrabook;12.5;16;Windows 10;1920;1080;0;0;176.23257360658386;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;0.91
+1245;Asus;Rog GL553VE-FY052T;Gaming;15.6;16;Windows 10;1920;1080;0;1;141.21199808219862;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+1093;Dell;Inspiron 5370;Ultrabook;13.3;4;Windows 10;1920;1080;0;1;165.6321180513006;1.6;0;Intel Core i5;256;0;0;AMD;AMD Estándar;1.4
+271;Asus;Rog Strix;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;3.0;1;AMD;256;1000;0;AMD;AMD Estándar;3.2
+52;HP;255 G6;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;AMD;256;0;0;AMD;AMD Estándar;1.86
+1233;MSI;GE72VR Apache;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.7
+933;Lenovo;Yoga 900-13ISK;2 in 1 Convertible;13.3;16;Windows 10;3200;1800;1;1;276.053530085501;2.2;0;Intel Core i7;1000;0;0;Intel;Intel Integrada;1.3
+675;MSI;GP62 7RDX;Gaming;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.4
+263;Dell;Vostro 3568;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;0;1000;0;Intel;Intel Integrada;2.18
+1100;Dell;Latitude E5270;Ultrabook;12.5;4;Windows 7;1366;768;0;0;125.36742798669837;2.3;0;Intel Core i3;0;500;0;Intel;Intel Integrada;1.5
+290;Acer;Chromebook C910-C2ST;Notebook;15.6;2;Chrome OS;1366;768;0;0;100.45466986113651;1.5;0;Otro Intel;16;0;0;Intel;Intel Integrada;2.19
+725;Lenovo;V310-15IKB;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;0;1000;0;Intel;Intel Integrada;1.9
+1226;Dell;XPS 13;Ultrabook;13.3;8;Windows 10;3200;1800;1;0;276.053530085501;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.29
+383;Lenovo;IdeaPad 720S-14IKB;Notebook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.5;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.5
+377;Dell;Inspiron 3552;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;1.8
+791;Vero;K146;Notebook;14.0;4;Windows 10;1920;1080;0;0;157.3505121487356;1.1;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.22
+713;Asus;VivoBook E403NA;Notebook;14.0;4;Windows 10;1920;1080;0;0;157.3505121487356;1.1;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.5
+1285;Lenovo;Yoga 900-13ISK;2 in 1 Convertible;13.3;16;Windows 10;3200;1800;1;1;276.053530085501;2.5;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.3
+784;Lenovo;ThinkPad T470s;Ultrabook;14.0;16;Windows 10;1920;1080;0;0;157.3505121487356;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.7
+448;MSI;GV62 7RD-1686NL;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;1;Intel Core i5;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.2
+1087;Lenovo;ThinkPad T460;Notebook;14.0;8;Windows 7;1920;1080;0;0;157.3505121487356;2.3;0;Intel Core i5;180;0;0;Intel;Intel Integrada;1.7
+1042;Toshiba;Tecra A50-C-218;Notebook;15.6;16;Windows 10;1920;1080;0;1;141.21199808219862;2.5;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.4
+775;Asus;Q524UQ-BHI7T15;2 in 1 Convertible;15.6;12;Windows 10;1920;1080;1;0;141.21199808219862;2.7;0;Intel Core i7;0;2000;0;Nvidia;Nvidia Básica (MX/900M);2.3
+981;Toshiba;Portege Z30-C-1CV;Notebook;13.3;4;Windows 7;1920;1080;0;0;165.6321180513006;2.3;0;Intel Core i5;128;0;0;Intel;Intel Integrada;1.2
+1144;HP;Spectre Pro;2 in 1 Convertible;13.3;8;Windows 10;2560;1440;1;0;220.84282406840083;2.6;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.48
+767;Dell;Inspiron 7559;Gaming;15.6;16;Windows 10;3840;2160;1;1;282.42399616439724;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.72
+762;Google;Pixelbook;Ultrabook;12.3;8;Chrome OS;2400;1600;1;0;234.50740003017813;1.2;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.1
+147;Asus;X541NA;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;1.1;0;Otro Intel;0;1000;0;Intel;Intel Integrada;2.0
+251;Asus;ROG G752VSK-GC493T;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.3
+873;Lenovo;Thinkpad 13;Notebook;13.3;4;Windows 10;1920;1080;0;1;165.6321180513006;2.4;0;Intel Core i3;180;0;0;Intel;Intel Integrada;1.44
+154;HP;EliteBook 840;Ultrabook;14.0;4;Windows 10;1920;1080;0;0;157.3505121487356;2.7;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.48
+504;Lenovo;Chromebook N23;Netbook;11.6;4;Chrome OS;1366;768;0;0;135.0942111925629;1.6;0;Otro Intel;16;0;0;Intel;Intel Integrada;1.25
+211;Asus;ROG GL703VD-GC028T;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.9
+648;Toshiba;Portege Z30-C-16J;Notebook;13.3;8;Windows 10;1920;1080;0;0;165.6321180513006;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.2
+1197;Asus;Rog G752VY-GC229T;Gaming;17.3;16;Windows 10;1920;1080;0;1;127.33567457123111;2.6;1;Intel Core i7;512;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.3
+921;HP;EliteBook 850;Ultrabook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i7;256;0;0;AMD;AMD Estándar;1.84
+786;MSI;GL62M;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;1;Intel Core i5;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.2
+150;Dell;Inspiron 5577;Gaming;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;512;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.56
+1244;HP;EliteBook 840;Notebook;14.0;4;Windows 7;1920;1080;0;0;157.3505121487356;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.54
+1000;Acer;Nitro 5;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.7
+1001;HP;ENVY -;Notebook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.34
+845;Dell;Vostro 3568;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.7;0;Intel Core i7;256;0;0;AMD;AMD Estándar;2.18
+951;Dell;Latitude 7480;Ultrabook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;2.8;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.36
+811;MSI;GE72MVR 7RG;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;512;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.9
+1219;Acer;SP714-51;2 in 1 Convertible;14.0;8;Windows 10;1920;1080;1;1;157.3505121487356;1.3;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.2
+1128;Lenovo;Legion Y520-15IKBN;Gaming;15.6;8;No OS;1920;1080;0;1;141.21199808219862;2.5;1;Intel Core i5;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.4
+1230;Lenovo;ThinkPad Yoga;Netbook;12.5;16;Windows 10;1920;1080;1;1;176.23257360658386;2.5;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.3
+269;Lenovo;V330-15IKB;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;1.8;0;Intel Core i7;256;0;0;Intel;Intel Integrada;2.05
+770;Dell;Inspiron 5567;Notebook;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.7;0;Intel Core i7;256;0;0;AMD;AMD Estándar;2.3
+260;Dell;Inspiron 5770;Notebook;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;1.8;0;Intel Core i7;128;1000;0;AMD;AMD Estándar;2.8
+913;HP;ProBook 450;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.7;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.04
+262;HP;ProBook 450;Notebook;15.6;4;Windows 10;1920;1080;0;1;141.21199808219862;1.6;0;Intel Core i5;0;500;0;Intel;Intel Integrada;2.1
+574;Lenovo;V330-15IKB;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;1.6;0;Intel Core i5;0;500;0;Intel;Intel Integrada;2.05
+330;MSI;GL72M 7REX;Gaming;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.7
+710;Lenovo;Legion Y520-15IKBN;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+254;Acer;Aspire 5;Notebook;17.3;4;Windows 10;1920;1080;0;1;127.33567457123111;2.7;0;Intel Core i3;256;0;0;Nvidia;Nvidia Básica (MX/900M);3.0
+42;Asus;X542UQ-GO005;Notebook;15.6;8;Linux;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.3
+122;Lenovo;IdeaPad 320-15IKBN;Notebook;15.6;8;No OS;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.2
+1177;Lenovo;IdeaPad Y700-15ISK;Gaming;15.6;16;Windows 10;1920;1080;0;1;141.21199808219862;2.6;1;Intel Core i7;512;0;0;Nvidia;Nvidia Gaming (GTX/RTX);3.31
+812;Samsung;Notebook 9;Ultrabook;13.3;8;Windows 10;1920;1080;0;0;165.6321180513006;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;0.81
+116;HP;Probook 440;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;1.8;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.63
+1266;HP;Pavilion 15-AW003nv;Notebook;15.6;6;Windows 10;1920;1080;0;0;141.21199808219862;2.9;0;AMD;0;0;1000;AMD;AMD Estándar;2.04
+978;HP;15-bs053od;Notebook;15.6;6;Windows 10;1366;768;0;0;100.45466986113651;2.7;0;Intel Core i7;0;1000;0;Intel;Intel Integrada;2.04
+442;Lenovo;ThinkPad X270;Ultrabook;12.5;8;Windows 10;1920;1080;0;1;176.23257360658386;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.36
+189;Dell;Inspiron 5770;Notebook;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;1.8;0;Intel Core i7;128;1000;0;AMD;AMD Estándar;2.8
+282;Lenovo;Legion Y520-15IKBN;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.5;1;Intel Core i5;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+508;HP;Envy 13-AB002nv;Ultrabook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.34
+444;HP;Omen 15-AX205na;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.2
+1269;Asus;X556UJ-XO044T;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i7;0;500;0;Nvidia;Nvidia Básica (MX/900M);2.2
+1239;Lenovo;ThinkPad 13;Notebook;13.3;16;Windows 10;1920;1080;0;1;165.6321180513006;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.4
+455;Dell;Inspiron 3168;2 in 1 Convertible;11.6;4;Windows 10;1366;768;1;0;135.0942111925629;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;1.47
+764;Dell;Latitude 3380;Notebook;13.3;4;Windows 10;1366;768;0;0;117.82653006268643;2.0;0;Intel Core i3;0;500;0;Intel;Intel Integrada;1.65
+169;HP;ProBook 430;Notebook;13.3;4;Windows 10;1920;1080;0;1;165.6321180513006;1.6;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.49
+244;Lenovo;Yoga 910-13IKB;2 in 1 Convertible;13.9;8;Windows 10;1920;1080;1;1;158.48253022174808;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.38
+470;HP;Spectre x360;2 in 1 Convertible;13.3;8;Windows 10;3840;2160;1;1;331.2642361026012;1.8;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.29
+830;Razer;Blade Pro;Gaming;17.3;32;Windows 10;3840;2160;1;0;254.67134914246222;2.9;1;Intel Core i7;512;0;0;Nvidia;Nvidia Gaming (GTX/RTX);3.49
+777;Acer;Swift 3;Notebook;14.0;4;Windows 10;1920;1080;0;1;157.3505121487356;2.4;0;Intel Core i3;128;0;0;Intel;Intel Integrada;1.8
+314;Asus;VivoBook Flip;2 in 1 Convertible;11.6;2;Windows 10;1366;768;1;0;135.0942111925629;1.1;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.1
+908;Lenovo;IdeaPad Y700-15ISK;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.3;1;Intel Core i5;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.6
+257;HP;Envy 17-U275cl;Notebook;17.3;16;Windows 10;1920;1080;0;1;127.33567457123111;1.8;0;Intel Core i7;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.9
+1098;HP;250 G5;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;1000;0;Intel;Intel Integrada;1.96
+1261;Asus;ZenBook UX305CA-UBM1;Ultrabook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;0.9;0;Otro Intel;512;0;0;Intel;Intel Integrada;1.2
+193;Lenovo;IdeaPad 320-17IKBR;Notebook;17.3;8;No OS;1600;900;0;0;106.11306214269258;1.6;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.8
+135;HP;Probook 440;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;1.8;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.63
+827;Dell;Latitude 3480;Notebook;14.0;4;Windows 10;1366;768;0;0;111.93520355955211;2.0;0;Intel Core i3;0;500;0;Intel;Intel Integrada;1.76
+1054;Dell;XPS 13;Ultrabook;13.3;16;Windows 10;3200;1800;1;0;276.053530085501;2.7;0;Intel Core i7;1000;0;0;Intel;Intel Integrada;1.2
+543;Acer;Aspire 7;Gaming;15.6;8;Linux;1920;1080;0;0;141.21199808219862;2.5;1;Intel Core i5;0;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.4
+994;Dell;Inspiron 5378;2 in 1 Convertible;13.3;8;Windows 10;1920;1080;1;0;165.6321180513006;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.68
+176;Acer;Aspire A315-51;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.0;0;Intel Core i3;128;0;0;Intel;Intel Integrada;2.1
+917;MSI;GE72VR 6RF;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.7
+1166;Lenovo;ThinkPad T570;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.95
+349;Dell;Inspiron 5570;Ultrabook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;1.6;0;Intel Core i5;0;1000;0;AMD;AMD Estándar;1.9
+1278;Dell;Inspiron 3552;Notebook;15.6;2;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+1018;Toshiba;Tecra Z40-C-12Z;Notebook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.47
+1030;HP;ProBook 440;Notebook;14.0;4;Windows 10;1366;768;0;0;111.93520355955211;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.64
+576;Toshiba;Tecra X40-D-10H;Ultrabook;14.0;16;Windows 10;1920;1080;1;0;157.3505121487356;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.24
+618;MSI;GT62VR 7RE;Gaming;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.94
+401;Asus;FX753VD-GC461T;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.9
+780;Dell;Alienware 17;Gaming;17.3;32;Windows 10;1920;1080;0;1;127.33567457123111;2.8;1;Intel Core i7;1000;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.42
+502;Lenovo;Yoga 920-13IKB;2 in 1 Convertible;13.9;8;Windows 10;1920;1080;1;1;158.48253022174808;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.4
+565;Dell;XPS 13;Ultrabook;13.3;8;Windows 10;3840;2160;1;1;331.2642361026012;1.6;0;Intel Core i5;128;0;0;Intel;Intel Integrada;1.21
+883;Lenovo;IdeaPad 510-15ISK;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.5;0;Intel Core i7;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.2
+1222;HP;15-bw009nv;Notebook;15.6;6;Windows 10;1920;1080;0;0;141.21199808219862;2.7;0;AMD;0;1000;0;AMD;AMD Estándar;2.1
+63;Asus;UX410UA-GV350T;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.4
+788;Acer;Predator G9-793;Gaming;17.3;16;Windows 10;1920;1080;0;1;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.2
+507;Acer;Aspire A515-51G-59QF;Notebook;15.6;4;Windows 10;1920;1080;0;1;141.21199808219862;1.6;0;Intel Core i5;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.2
+459;HP;17-BS092ND;Notebook;17.3;8;Windows 10;1600;900;0;0;106.11306214269258;2.0;0;Intel Core i3;256;0;0;Intel;Intel Integrada;2.5
+174;HP;ProBook 470;Notebook;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;1.6;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.5
+1117;Razer;Blade Stealth;Ultrabook;12.5;8;Windows 10;3840;2160;1;0;352.4651472131677;2.5;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.25
+852;Dell;Inspiron 5767;Notebook;17.3;8;Linux;1920;1080;0;0;127.33567457123111;2.7;0;Intel Core i7;0;1000;0;AMD;AMD Estándar;2.83
+935;HP;EliteBook 820;Netbook;12.5;8;Windows 10;1920;1080;0;0;176.23257360658386;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.26
+1291;Acer;Aspire ES1-531;Notebook;15.6;4;Linux;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.4
+552;Dell;Alienware 17;Gaming;17.3;16;Windows 10;1920;1080;0;1;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.42
+1268;HP;Stream 11-Y000na;Netbook;11.6;2;Windows 10;1366;768;0;0;135.0942111925629;1.6;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.17
+441;Dell;Inspiron 5570;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;1.6;0;Intel Core i5;256;0;0;AMD;AMD Estándar;2.2
+306;HP;EliteBook x360;2 in 1 Convertible;13.3;16;Windows 10;1920;1080;1;0;165.6321180513006;2.8;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.28
+501;HP;15-BS026nv;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;256;0;0;AMD;AMD Estándar;1.91
+483;Chuwi;Lapbook 15,6;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;1.44;0;Otro Intel;64;0;0;Intel;Intel Integrada;1.89
+307;Toshiba;Satellite Pro;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.5;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.2
+410;Lenovo;ThinkPad P51;Workstation;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;512;0;0;Nvidia;Nvidia Profesional (Quadro);2.67
+1011;HP;EliteBook 820;Ultrabook;12.5;4;Windows 10;1920;1080;0;0;176.23257360658386;2.5;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.26
+630;Asus;ZenBook 3;Ultrabook;14.0;16;Windows 10;1920;1080;0;0;157.3505121487356;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.1
+1120;Vero;V131;Notebook;13.3;4;Windows 10;1920;1080;0;0;165.6321180513006;1.44;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.35
+386;Lenovo;Ideapad 510S-13IKB;Notebook;13.3;4;Windows 10;1920;1080;0;1;165.6321180513006;2.4;0;Intel Core i3;128;0;0;Intel;Intel Integrada;1.5
+957;HP;ProBook x360;2 in 1 Convertible;11.6;4;Windows 10;1366;768;1;0;135.0942111925629;1.1;0;Otro Intel;256;0;0;Intel;Intel Integrada;1.45
+750;Lenovo;N23;Netbook;11.6;4;Windows 10;1366;768;1;0;135.0942111925629;1.6;0;Otro Intel;128;0;0;Intel;Intel Integrada;1.4
+954;Lenovo;Thinkpad T460;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.6;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.7
+276;Dell;Inspiron 5770;Notebook;17.3;8;Linux;1920;1080;0;0;127.33567457123111;1.8;0;Intel Core i7;128;1000;0;AMD;AMD Estándar;2.8
+765;Acer;TravelMate P238-M;Notebook;13.3;4;Windows 10;1366;768;0;0;117.82653006268643;2.3;0;Intel Core i5;128;0;0;Intel;Intel Integrada;1.6
+720;Lenovo;ThinkPad X1;Ultrabook;14.0;8;Windows 10;2560;1440;0;1;209.8006828649808;2.5;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.17
+592;Dell;Inspiron 3179;2 in 1 Convertible;11.6;4;Windows 10;1366;768;1;0;135.0942111925629;1.0;0;Otro Intel;128;0;0;Intel;Intel Integrada;1.39
+636;Dell;XPS 13;Ultrabook;13.3;8;Windows 10;3200;1800;1;0;276.053530085501;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.23
+680;MSI;GV62M 7RD;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;1;Intel Core i5;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.2
+1135;Lenovo;IdeaPad 500-15ISK;Notebook;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i7;0;0;1000;AMD;AMD Estándar;2.5
+1160;Lenovo;ThinkPad T460;Ultrabook;14.0;8;Windows 7;1920;1080;0;0;157.3505121487356;2.6;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.7
+1286;Lenovo;IdeaPad 100S-14IBR;Notebook;14.0;2;Windows 10;1366;768;0;0;111.93520355955211;1.6;0;Otro Intel;64;0;0;Intel;Intel Integrada;1.5
+297;Dell;Precision 7720;Workstation;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.9;1;Intel Core i7;256;0;0;Nvidia;Nvidia Profesional (Quadro);3.42
+11;HP;250 G6;Notebook;15.6;4;No OS;1920;1080;0;0;141.21199808219862;2.0;0;Intel Core i3;0;500;0;Intel;Intel Integrada;1.86
+722;Lenovo;ThinkPad T470s;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.32
+68;Lenovo;V310-15ISK;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;0;1000;0;Intel;Intel Integrada;1.9
+30;Chuwi;"LapBook 15.6""";Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;1.44;0;Otro Intel;64;0;0;Intel;Intel Integrada;1.89
+599;Dell;Precision 3520;Workstation;15.6;8;Windows 10;1920;1080;1;0;141.21199808219862;2.8;1;Intel Core i7;256;0;0;Nvidia;Nvidia Profesional (Quadro);2.06
+748;Dell;Latitude 5480;Notebook;14.0;8;Windows 10;1366;768;0;0;111.93520355955211;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.6
+305;Lenovo;IdeaPad 320-15IAP;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;1.1;0;Otro Intel;0;1000;0;Intel;Intel Integrada;2.2
+184;Xiaomi;Mi Notebook;Notebook;15.6;8;No OS;1920;1080;0;1;141.21199808219862;1.6;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.95
+62;Lenovo;IdeaPad 520S-14IKB;Notebook;14.0;8;No OS;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i3;256;0;0;Intel;Intel Integrada;1.7
+971;Dell;Latitude E7470;Ultrabook;14.0;8;Windows 10;2560;1440;1;0;209.8006828649808;2.6;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.5
+1078;Lenovo;V110-15ISK;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.3;0;Intel Core i5;0;500;0;Intel;Intel Integrada;2.1
+190;Lenovo;Thinkpad Yoga;2 in 1 Convertible;14.0;16;Windows 10;2560;1440;1;0;209.8006828649808;2.7;0;Intel Core i7;1000;0;0;Intel;Intel Integrada;1.42
+83;Lenovo;IdeaPad 320-15AST;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;AMD;128;0;0;AMD;AMD Estándar;2.2
+1063;Dell;Inspiron 5567;Notebook;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.7;0;Intel Core i7;0;2000;0;AMD;AMD Estándar;2.32
+408;Lenovo;IdeaPad 320-15ISK;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.0;0;Intel Core i3;0;500;0;Intel;Intel Integrada;2.2
+387;Dell;Precision 3510;Workstation;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.6;1;Intel Core i5;0;500;0;AMD;AMD Profesional;2.23
+608;Lenovo;Yoga 720-15IKB;2 in 1 Convertible;15.6;8;Windows 10;1920;1080;1;1;141.21199808219862;2.8;1;Intel Core i7;256;0;0;Intel;Intel Integrada;2.0
+432;Lenovo;IdeaPad 320s-14IKB;Notebook;14.0;4;Windows 10;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i3;128;0;0;Intel;Intel Integrada;1.7
+180;Dell;Inspiron 5570;Notebook;15.6;16;Linux;1920;1080;0;0;141.21199808219862;1.8;0;Intel Core i7;256;2000;0;AMD;AMD Estándar;2.02
+1258;Lenovo;B51-80;Notebook;15.6;8;Windows 7;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i7;0;0;1000;AMD;AMD Estándar;2.32
+389;Lenovo;ThinkPad X1;2 in 1 Convertible;14.0;16;Windows 10;2560;1440;1;0;209.8006828649808;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.42
+738;MSI;GS63VR 7RF;Gaming;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);1.8
+634;Asus;X541NA-GO414T;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;1.1;0;Otro Intel;0;1000;0;Intel;Intel Integrada;2.0
+462;Asus;Pro P2540UA-AB51;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;0;1000;0;Intel;Intel Integrada;2.37
+268;HP;Probook 470;Notebook;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;1.8;0;Intel Core i7;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.5
+983;Fujitsu;LifeBook A556;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;2.3
+1065;Dell;XPS 13;Ultrabook;13.3;8;Windows 10;1920;1080;0;0;165.6321180513006;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.29
+708;Lenovo;Thinkpad T460p;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;2.3;1;Intel Core i5;256;0;0;Intel;Intel Integrada;1.8
+332;Asus;UX510UX-CN269T;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;2.7;0;Intel Core i7;256;1000;0;Intel;Intel Integrada;2.0
+776;Lenovo;Thinkpad P50;Notebook;15.6;16;Windows 7;3840;2160;0;0;282.42399616439724;2.7;1;Intel Core i7;512;0;0;Nvidia;Nvidia Profesional (Quadro);2.5
+861;HP;EliteBook 850;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.6;0;Intel Core i5;256;0;0;AMD;AMD Estándar;1.84
+874;Samsung;Notebook 9;Ultrabook;15.0;16;Windows 10;1920;1080;0;0;146.86047800548656;2.7;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.23
+753;Lenovo;Thinkpad T460;Ultrabook;14.0;4;Windows 10;1920;1080;0;0;157.3505121487356;2.3;0;Intel Core i5;180;0;0;Intel;Intel Integrada;1.7
+1169;MSI;PL60 7RD;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.7;0;Intel Core i7;0;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.2
+711;Dell;Latitude 5480;Notebook;14.0;8;Linux;1920;1080;0;0;157.3505121487356;2.8;1;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.64
+882;Asus;VivoBook L402NA;Notebook;14.1;4;Windows 10;1366;768;0;0;111.1413368676404;1.1;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.65
+53;HP;ProBook 430;Notebook;13.3;8;Windows 10;1920;1080;0;0;165.6321180513006;1.8;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.49
+947;Lenovo;IdeaPad 310-15IKB;Notebook;15.6;8;No OS;1920;1080;0;0;141.21199808219862;2.7;0;Intel Core i7;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.2
+668;Toshiba;Tecra Z50-D-10E;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;2.0
+850;HP;250 G6;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;128;0;0;Intel;Intel Integrada;1.86
+1084;Dell;Vostro 3568;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;2.18
+596;Lenovo;ThinkPad Yoga;2 in 1 Convertible;13.3;8;Windows 10;1920;1080;1;1;165.6321180513006;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.37
+117;Dell;Inspiron 7570;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;1.8;0;Intel Core i7;256;1000;0;Nvidia;Nvidia Básica (MX/900M);2.16
+322;Asus;ZenBook UX410UA-GV183T;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;2.0
+612;Dell;Vostro 3568;Notebook;15.6;4;Linux;1366;768;0;0;100.45466986113651;2.0;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;2.18
+1142;HP;Spectre Pro;2 in 1 Convertible;13.3;8;Windows 10;1920;1080;1;0;165.6321180513006;2.4;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.48
+1044;HP;EliteBook 840;Notebook;14.0;4;Windows 10;1920;1080;0;0;157.3505121487356;2.3;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.54
+1126;Lenovo;Yoga Book;2 in 1 Convertible;10.1;4;Windows 10;1920;1200;1;1;224.17380907857276;1.44;0;Otro Intel;64;0;0;Intel;Intel Integrada;0.69
+807;HP;15-ba043na;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;AMD;0;2000;0;AMD;AMD Estándar;2.04
+475;Dell;Latitude E5470;Notebook;14.0;8;Windows 10;1366;768;0;0;111.93520355955211;2.3;0;Intel Core i3;128;0;0;Intel;Intel Integrada;1.79
+609;Acer;Swift SF114-31-P5HY;Notebook;14.0;4;Windows 10;1366;768;0;0;111.93520355955211;1.6;0;Otro Intel;128;0;0;Intel;Intel Integrada;1.6
+487;Dell;XPS 15;Notebook;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;512;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.06
+137;Asus;FX753VD-GC086T;Gaming;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;2.5;1;Intel Core i5;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);3.0
+474;Asus;ZenBook Pro;Notebook;15.6;12;Windows 10;3840;2160;0;1;282.42399616439724;2.6;1;Intel Core i7;128;1000;0;Intel;Intel Integrada;2.06
+1263;Acer;Aspire ES1-531;Notebook;15.6;4;Linux;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.4
+1193;Apple;"MacBook 12""";Ultrabook;12.0;8;macOS;2304;1440;0;1;226.41554716935852;1.1;0;Otro Intel;256;0;0;Intel;Intel Integrada;0.92
+1122;HP;EliteBook 1040;Notebook;14.0;8;Windows 7;1920;1080;0;0;157.3505121487356;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.43
+403;Acer;Aspire 7;Notebook;15.6;8;Linux;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+988;Dell;Inspiron 5567;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.7;0;Intel Core i7;0;1000;0;AMD;AMD Estándar;2.36
+972;Dell;Alienware 17;Gaming;17.3;32;Windows 10;1920;1080;0;0;127.33567457123111;2.6;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.42
+119;Asus;VivoBook S15;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;1.8;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.7
+1130;HP;15-bs078cl;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.7;0;Intel Core i7;0;2000;0;Intel;Intel Integrada;2.04
+676;Asus;Zenbook 3;Ultrabook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.1
+485;Lenovo;ThinkPad E480;Notebook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.75
+1238;MSI;GL62 6QF;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.3
+863;Lenovo;Legion Y520-15IKBN;Gaming;15.6;8;No OS;1920;1080;0;1;141.21199808219862;2.5;1;Intel Core i5;0;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+832;Asus;VivoBook Max;Notebook;15.6;4;Linux;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.1
+798;Lenovo;Yoga 910-13IKB;2 in 1 Convertible;13.9;8;Windows 10;1920;1080;1;1;158.48253022174808;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.38
+498;Lenovo;ThinkPad 13;Notebook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.4;0;Intel Core i3;256;0;0;Intel;Intel Integrada;1.4
+546;Lenovo;ThinkPad E470;Notebook;14.0;4;Windows 10;1920;1080;0;0;157.3505121487356;2.5;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.87
+1170;HP;250 G5;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.96
+5;Acer;Aspire 3;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;3.0;0;AMD;0;500;0;AMD;AMD Estándar;2.1
+1274;Asus;X553SA-XX031T;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+624;HP;EliteBook 850;Notebook;15.6;4;Windows 7;1366;768;0;0;100.45466986113651;2.3;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.88
+352;MSI;GP72MVR 7RFX;Gaming;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.7
+272;Dell;Inspiron 3576;Notebook;15.6;8;Linux;1920;1080;0;0;141.21199808219862;1.8;0;Intel Core i7;256;0;0;AMD;AMD Estándar;2.14
+846;HP;Chromebook X360;2 in 1 Convertible;11.6;4;Chrome OS;1366;768;1;0;135.0942111925629;1.1;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.4
+884;Dell;Inspiron 3552;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+71;Dell;Inspiron 5370;Ultrabook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;1.8;0;Intel Core i7;256;0;0;AMD;AMD Estándar;1.4
+564;Asus;FX553VD-DM627T;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;1;Intel Core i5;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+438;Lenovo;ThinkPad T470s;Ultrabook;14.0;24;Windows 10;2560;1440;0;0;209.8006828649808;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.32
+642;Lenovo;ThinkPad X1;Ultrabook;14.0;16;Windows 10;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.14
+321;Lenovo;IdeaPad 320-17IKB;Notebook;17.3;4;Windows 10;1600;900;0;0;106.11306214269258;2.5;0;Intel Core i5;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.79
+419;Lenovo;ThinkPad E480;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;1.8;0;Intel Core i7;256;0;0;AMD;AMD Estándar;1.75
+1161;MSI;GS40 Phantom;Gaming;14.0;16;Windows 10;1920;1080;0;0;157.3505121487356;2.6;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);1.7
+879;HP;ProBook 450;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;2.04
+79;HP;ProBook 470;Notebook;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;1.6;0;Intel Core i5;128;1000;0;Nvidia;Nvidia Básica (MX/900M);2.5
+239;Acer;Nitro AN515-51;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.5;1;Intel Core i5;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+1256;Asus;Rog G752VT-GC073T;Gaming;17.3;16;Windows 10;1920;1080;0;1;127.33567457123111;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.0
+40;Asus;X540UA-DM186;Notebook;15.6;4;Linux;1920;1080;0;0;141.21199808219862;2.0;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;2.0
+997;Acer;Aspire ES1-533;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.1;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.4
+167;Dell;Inspiron 5577;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.56
+1024;Dell;Latitude E5570;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.4;0;Intel Core i5;0;500;0;Intel;Intel Integrada;2.09
+640;Lenovo;Legion Y520-15IKBN;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+107;Asus;UX430UQ-GV209R;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.3
+205;Lenovo;Legion Y520-15IKBN;Gaming;15.6;16;No OS;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;512;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.4
+222;Toshiba;Portege Z30-C-16L;Ultrabook;13.3;8;Windows 10;1920;1080;0;0;165.6321180513006;2.5;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.2
+250;Dell;Inspiron 5579;2 in 1 Convertible;15.6;8;Windows 10;1920;1080;1;1;141.21199808219862;1.8;0;Intel Core i7;0;1000;0;Intel;Intel Integrada;2.08
+95;Acer;Spin 5;2 in 1 Convertible;13.3;8;Windows 10;1920;1080;1;1;165.6321180513006;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.5
+885;HP;EliteBook x360;2 in 1 Convertible;13.3;4;Windows 10;1920;1080;1;0;165.6321180513006;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.28
+109;Lenovo;Thinkpad T470;Notebook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.58
+672;Lenovo;Yoga 720-13IKB;2 in 1 Convertible;13.3;8;Windows 10;1920;1080;1;1;165.6321180513006;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.3
+803;Dell;XPS 15;Notebook;15.6;8;Windows 10;3840;2160;1;0;282.42399616439724;2.5;1;Intel Core i5;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.06
+662;Lenovo;IdeaPad 320-15ISK;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.3;0;Intel Core i5;0;500;0;Intel;Intel Integrada;2.2
+208;Dell;XPS 13;Ultrabook;13.3;8;Windows 10;1920;1080;0;0;165.6321180513006;1.8;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.2
+1265;Lenovo;IdeaPad Y700-15ISK;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.6;1;Intel Core i7;0;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.6
+213;Lenovo;IdeaPad 320-15IKBN;Notebook;15.6;8;No OS;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;2.2
+22;HP;255 G6;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;1.5;0;AMD;0;500;0;AMD;AMD Estándar;1.86
+847;Asus;ZenBook UX310UQ-GL026T;Ultrabook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.3;0;Intel Core i5;512;0;0;Nvidia;Nvidia Básica (MX/900M);1.45
+183;Toshiba;Satellite Pro;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;128;0;0;Intel;Intel Integrada;2.0
+1064;MSI;GS63VR 6RF;Gaming;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.6;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);1.8
+532;Asus;Zenbook UX510UW-FI095T;Notebook;15.6;8;Windows 10;3840;2160;0;1;282.42399616439724;2.7;0;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.0
+1172;Asus;X553SA-XX021T;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+319;Acer;TravelMate B;Notebook;11.6;4;Windows 10;1366;768;0;0;135.0942111925629;1.6;0;Otro Intel;128;0;0;Intel;Intel Integrada;1.4
+1251;HP;255 G6;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;AMD;0;500;0;AMD;AMD Estándar;1.86
+593;Samsung;Notebook Odyssey;Notebook;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+1075;Lenovo;IdeaPad 300-17ISK;Notebook;17.3;8;Windows 10;1600;900;0;0;106.11306214269258;2.3;0;Intel Core i5;0;1000;0;AMD;AMD Estándar;3.0
+1224;Dell;Inspiron 5578;2 in 1 Convertible;15.0;4;Windows 10;1920;1080;1;0;146.86047800548656;2.4;0;Intel Core i3;0;500;0;Intel;Intel Integrada;2.08
+1202;Dell;Inspiron 5579;2 in 1 Convertible;15.6;16;Windows 10;1920;1080;1;0;141.21199808219862;1.8;0;Intel Core i7;512;0;0;Intel;Intel Integrada;2.0
+731;Dell;Inspiron 3567;Notebook;15.6;12;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;0;1000;0;Intel;Intel Integrada;2.25
+344;Dell;XPS 13;Ultrabook;13.3;8;Windows 10;1920;1080;0;0;165.6321180513006;1.8;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.2
+570;HP;ZBook 17;Workstation;17.3;8;Windows 10;1600;900;0;0;106.11306214269258;2.8;1;Intel Core i5;0;500;0;Nvidia;Nvidia Profesional (Quadro);3.14
+443;Lenovo;IdeaPad 320-15IAP;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;1.1;0;Otro Intel;128;0;0;Intel;Intel Integrada;2.2
+454;Dell;Inspiron 5570;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;1.8;0;Intel Core i7;128;1000;0;AMD;AMD Estándar;2.36
+706;Acer;Spin 5;2 in 1 Convertible;13.3;8;Windows 10;1920;1080;1;1;165.6321180513006;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.6
+1119;Asus;Rog GL752VW-T4308T;Gaming;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);3.52
+457;Microsoft;Surface Laptop;Ultrabook;13.5;4;Windows 10;2256;1504;1;0;200.84255993695703;2.2;0;Otro Intel;128;0;0;Intel;Intel Integrada;1.252
+854;Asus;K556UR-DM621T;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.7;0;Intel Core i7;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.3
+774;HP;EliteBook 820;Ultrabook;12.5;4;Windows 10;1366;768;0;0;125.36742798669837;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.26
+866;Toshiba;Portg Z30-C-188;Ultrabook;13.3;8;Windows 10;1366;768;0;0;117.82653006268643;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.2
+925;Dell;Latitude 3580;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.3;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.95
+191;Vero;K147;Notebook;14.0;4;Windows 10;1920;1080;0;1;157.3505121487356;1.1;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.3
+245;Dell;Inspiron 5570;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;1.8;0;Intel Core i7;128;2000;0;AMD;AMD Estándar;2.2
+39;HP;ProBook 450;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;1.6;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.1
+621;Lenovo;ThinkPad T470;Notebook;14.0;8;Windows 7;1920;1080;0;0;157.3505121487356;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.65
+136;Lenovo;V110-15IAP;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;1.1;0;Otro Intel;0;1000;0;Intel;Intel Integrada;1.9
+1254;Dell;Inspiron 3552;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+51;Acer;Aspire A515-51G;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;1.8;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.2
+490;Lenovo;Thinkpad E570;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.3
+734;Lenovo;ThinkPad 13;Notebook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.44
+1056;HP;250 G5;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.96
+284;Acer;Aspire A517-51G;Notebook;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;1.8;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);3.0
+905;LG;Gram 15Z970;Ultrabook;15.6;16;Windows 10;1920;1080;1;1;141.21199808219862;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.08
+1259;MSI;GE62 Apache;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.4
+1140;Lenovo;ThinkPad X1;2 in 1 Convertible;14.0;16;Windows 10;2560;1440;1;1;209.8006828649808;2.6;0;Intel Core i7;512;0;0;Intel;Intel Integrada;2.8
+558;HP;15-bw007nv;Notebook;15.6;6;Windows 10;1920;1080;0;1;141.21199808219862;2.5;0;AMD;128;0;0;AMD;AMD Estándar;1.91
+1260;Lenovo;Yoga 500-14IBD;2 in 1 Convertible;14.0;4;Windows 10;1920;1080;1;0;157.3505121487356;2.3;0;Intel Core i5;128;0;0;Intel;Intel Integrada;1.8
+1091;HP;250 G6;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;2.0;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;1.86
+985;Dell;Inspiron 3567;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;0;500;0;AMD;AMD Estándar;2.25
+1302;Asus;X553SA-XX031T;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+467;Dell;Inspiron 5570;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;1.6;0;Intel Core i5;0;2000;0;AMD;AMD Estándar;2.02
+693;Lenovo;ThinkPad X1;2 in 1 Convertible;14.0;8;Windows 10;2560;1440;1;0;209.8006828649808;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.42
+518;HP;Probook 450;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.04
+220;Dell;Inspiron 3576;Notebook;15.6;8;Linux;1920;1080;0;0;141.21199808219862;1.6;0;Intel Core i5;256;0;0;AMD;AMD Estándar;2.2
+835;Dell;Alienware 15;Gaming;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);3.21
+488;Lenovo;Thinkpad X270;Ultrabook;12.5;16;Windows 10;1920;1080;0;1;176.23257360658386;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.36
+709;HP;17-ak002nv;Notebook;17.3;6;Windows 10;1920;1080;0;1;127.33567457123111;2.5;0;AMD;0;2000;0;AMD;AMD Estándar;2.71
+649;Lenovo;Thinkpad X270;Ultrabook;12.5;8;Windows 10;1920;1080;0;1;176.23257360658386;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.36
+529;Dell;Latitude 5580;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i5;256;0;0;Intel;Intel Integrada;1.9
+153;MSI;GE73VR 7RE;Gaming;17.3;16;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.8
+140;Acer;Aspire 5;Notebook;17.3;4;Windows 10;1920;1080;0;1;127.33567457123111;2.7;0;Intel Core i3;0;1000;0;Nvidia;Nvidia Básica (MX/900M);3.0
+495;Lenovo;Thinkpad X260;Ultrabook;12.5;8;Windows 10;1366;768;0;1;125.36742798669837;2.3;0;Intel Core i5;180;0;0;Intel;Intel Integrada;1.3
+113;HP;Probook 440;Notebook;14.0;4;Windows 10;1366;768;0;1;111.93520355955211;1.6;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.63
+1102;Acer;Chromebook 15;Notebook;15.6;4;Chrome OS;1366;768;0;0;100.45466986113651;1.5;0;Otro Intel;16;0;0;Intel;Intel Integrada;2.2
+929;HP;ProBook 640;Notebook;14.0;4;Windows 10;1366;768;0;0;111.93520355955211;2.3;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.95
+1179;HP;ProBook 450;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.3;0;Intel Core i3;0;500;0;Intel;Intel Integrada;2.07
+187;Lenovo;Legion Y520-15IKBN;Gaming;15.6;8;No OS;1920;1080;0;1;141.21199808219862;2.5;1;Intel Core i5;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.4
+623;Fujitsu;LifeBook A557;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;2.2
+486;Dell;Precision 3520;Workstation;15.6;16;Windows 10;1920;1080;0;1;141.21199808219862;2.7;1;Intel Core i7;512;0;0;Nvidia;Nvidia Profesional (Quadro);2.17
+360;HP;250 G6;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.0;0;Intel Core i3;0;500;0;Intel;Intel Integrada;1.86
+500;Asus;VivoBook E201NA;Netbook;11.6;4;Windows 10;1366;768;0;0;135.0942111925629;1.1;0;Otro Intel;64;0;0;Intel;Intel Integrada;1.2
+20;Asus;Vivobook E200HA;Netbook;11.6;2;Windows 10;1366;768;0;0;135.0942111925629;1.44;0;Otro Intel;32;0;0;Intel;Intel Integrada;0.98
+1283;Asus;X556UJ-XO044T;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i7;0;500;0;Nvidia;Nvidia Básica (MX/900M);2.2
+291;Asus;FX753VD-GC071T;Gaming;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;2.8;1;Intel Core i7;0;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);3.0
+694;Toshiba;Satellite Pro;Notebook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.5
+175;Dell;Inspiron 3567;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.4;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;2.3
+932;HP;250 G6;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;1000;0;Intel;Intel Integrada;1.86
+420;Lenovo;Yoga 720-15IKB;2 in 1 Convertible;15.6;16;Windows 10;3840;2160;1;1;282.42399616439724;2.8;1;Intel Core i7;512;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.0
+545;HP;ProBook 450;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.4;0;Intel Core i3;128;0;0;Intel;Intel Integrada;2.1
+743;Lenovo;Flex 5;2 in 1 Convertible;14.0;8;Windows 10;1920;1080;1;0;157.3505121487356;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.7
+369;HP;Elitebook 1040;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.36
+146;HP;EliteBook Folio;Ultrabook;12.5;8;Windows 10;3840;2160;1;1;352.4651472131677;1.2;0;Otro Intel;512;0;0;Intel;Intel Integrada;0.97
+157;Asus;ZenBook Flip;2 in 1 Convertible;13.3;8;Windows 10;1920;1080;1;0;165.6321180513006;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.1
+61;Dell;Vostro 5471;Ultrabook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;1.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.7
+302;Lenovo;IdeaPad 320-17IKB;Notebook;17.3;6;Windows 10;1600;900;0;0;106.11306214269258;2.5;0;Intel Core i5;0;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.8
+440;Lenovo;IdeaPad 320-15AST;Notebook;17.3;8;Windows 10;1600;900;0;0;106.11306214269258;2.5;0;AMD;0;1000;0;AMD;AMD Estándar;2.8
+629;Dell;XPS 15;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.0
+48;Dell;Inspiron 3567;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;256;0;0;AMD;AMD Estándar;2.3
+363;HP;250 G6;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;0;1000;0;Intel;Intel Integrada;1.86
+450;HP;15-bs024nv;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;128;0;0;Intel;Intel Integrada;1.91
+1106;MSI;GE72 Apache;Gaming;17.3;8;Windows 10;1920;1080;0;0;127.33567457123111;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.9
+1292;Dell;Inspiron 3552;Notebook;15.6;2;Windows 10;1366;768;0;0;100.45466986113651;1.6;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+758;Dell;Alienware 17;Gaming;15.6;16;Windows 10;3840;2160;0;1;282.42399616439724;2.8;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.42
+661;Lenovo;Ideapad 320-15IAP;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.1;0;Otro Intel;0;500;0;Intel;Intel Integrada;2.2
+569;Lenovo;ThinkPad L470;Notebook;14.0;4;Windows 10;1366;768;0;0;111.93520355955211;2.5;0;Intel Core i5;0;500;0;Intel;Intel Integrada;2.02
+398;Dell;Precision M5520;Workstation;15.6;8;Windows 10;3840;2160;1;0;282.42399616439724;2.8;1;Intel Core i7;256;0;0;Nvidia;Nvidia Profesional (Quadro);1.78
+626;Mediacom;SmartBook 140;Notebook;14.0;2;Windows 10;1920;1080;0;0;157.3505121487356;1.44;0;Otro Intel;32;0;0;Intel;Intel Integrada;1.4
+628;Asus;Q304UA-BHI5T11;2 in 1 Convertible;13.3;6;Windows 10;1920;1080;1;0;165.6321180513006;2.5;0;Intel Core i5;0;1000;0;Intel;Intel Integrada;1.5
+1069;Apple;"MacBook 12""";Ultrabook;12.0;8;macOS;2304;1440;0;1;226.41554716935852;1.1;0;Otro Intel;256;0;0;Intel;Intel Integrada;0.92
+1112;Lenovo;V110-15ISK;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.0;0;Intel Core i3;128;0;0;Intel;Intel Integrada;2.1
+822;Lenovo;Thinkpad X1;Ultrabook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.13
+588;Lenovo;Ideapad 320-15IKBR;Notebook;15.6;12;Windows 10;1366;768;1;0;100.45466986113651;1.8;0;Intel Core i7;0;1000;0;Intel;Intel Integrada;2.2
+19;Dell;XPS 13;Ultrabook;13.3;8;Windows 10;1920;1080;1;1;165.6321180513006;1.6;0;Intel Core i5;128;0;0;Intel;Intel Integrada;1.22
+323;HP;ProBook 450;Notebook;15.6;8;Windows 10;1366;768;0;1;100.45466986113651;1.8;0;Intel Core i7;0;1000;0;Intel;Intel Integrada;2.1
+196;Razer;Blade Pro;Gaming;17.3;32;Windows 10;3840;2160;1;0;254.67134914246222;2.9;1;Intel Core i7;1000;0;0;Nvidia;Nvidia Gaming (GTX/RTX);3.49
+909;LG;Gram 14Z970;Ultrabook;14.0;8;Windows 10;1920;1080;1;1;157.3505121487356;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;0.98
+85;Dell;Inspiron 7577;Gaming;15.6;16;Windows 10;1920;1080;0;1;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.65
+969;Lenovo;IdeaPad 310-15IKB;Notebook;15.6;6;Windows 10;1920;1080;0;0;141.21199808219862;2.5;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);2.4
+1048;Lenovo;IdeaPad Y900-17ISK;Gaming;17.3;16;Windows 10;1920;1080;0;1;127.33567457123111;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.6
+851;Asus;Rog GL502VM-DS74;Gaming;15.6;16;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.1
+521;HP;Spectre X360;Ultrabook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.32
+1203;Dell;XPS 13;Ultrabook;13.3;16;Windows 10;3200;1800;1;0;276.053530085501;2.7;0;Intel Core i7;512;0;0;Intel;Intel Integrada;1.2
+877;Xiaomi;Mi Notebook;Ultrabook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.3;0;Intel Core i5;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.28
+102;Dell;Inspiron 3576;Notebook;15.6;8;Linux;1920;1080;0;0;141.21199808219862;1.6;0;Intel Core i5;0;1000;0;AMD;AMD Estándar;2.2
+539;Lenovo;Thinkpad E470;Notebook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;2.7;0;Intel Core i7;256;0;0;Nvidia;Nvidia Básica (MX/900M);1.87
+90;Asus;FX550IK-DM018T;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;3.0;0;AMD;0;1000;0;AMD;AMD Estándar;2.45
+897;HP;ProBook 450;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.7;0;Intel Core i7;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.04
+1191;Samsung;Chromebook Plus;2 in 1 Convertible;12.3;4;Chrome OS;2400;1600;1;1;234.50740003017813;2.0;0;Otro;32;0;0;ARM;AMD Estándar;1.15
+104;Microsoft;Surface Laptop;Ultrabook;13.5;8;Windows 10;2256;1504;1;0;200.84255993695703;2.5;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.252
+961;Lenovo;ThinkPad X270;Ultrabook;12.5;8;Windows 10;1920;1080;0;1;176.23257360658386;2.6;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.36
+817;HP;Chromebook 11;Netbook;11.6;4;Chrome OS;1366;768;0;0;135.0942111925629;1.6;0;Otro Intel;16;0;0;Intel;Intel Integrada;1.23
+431;Lenovo;Thinkpad 13;Notebook;13.3;8;Windows 10;1920;1080;0;1;165.6321180513006;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.4
+472;Google;Pixelbook;Ultrabook;12.3;8;Chrome OS;2400;1600;1;0;234.50740003017813;1.2;0;Intel Core i5;128;0;0;Intel;Intel Integrada;1.1
+166;Acer;Aspire 3;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;1.1;0;Otro Intel;0;1000;0;Intel;Intel Integrada;2.1
+1218;Lenovo;IdeaPad Y700-15ISK;Gaming;15.6;8;Windows 10;1920;1080;0;1;141.21199808219862;2.6;1;Intel Core i7;128;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);2.6
+10;HP;250 G6;Notebook;15.6;4;No OS;1366;768;0;0;100.45466986113651;2.5;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.86
+120;Acer;Spin 3;Notebook;15.6;6;Windows 10;1920;1080;1;1;141.21199808219862;2.4;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;2.1
+3;Apple;MacBook Pro;Ultrabook;15.4;16;macOS;2880;1800;0;1;220.53462386625827;2.7;0;Intel Core i7;512;0;0;AMD;AMD Profesional;1.83
+1133;HP;250 G6;Ultrabook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.7;0;Intel Core i7;256;0;0;Intel;Intel Integrada;1.84
+141;Lenovo;ThinkPad E480;Notebook;14.0;8;Windows 10;1920;1080;0;1;157.3505121487356;1.6;0;Intel Core i5;256;0;0;AMD;AMD Estándar;1.75
+1110;HP;EliteBook 1030;Notebook;13.3;8;Windows 10;3200;1800;1;0;276.053530085501;1.1;0;Otro Intel;256;0;0;Intel;Intel Integrada;1.16
+7;Apple;Macbook Air;Ultrabook;13.3;8;macOS;1440;900;0;0;127.67794013309688;1.8;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.34
+899;Dell;Latitude 5580;Notebook;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.6;0;Intel Core i5;0;500;0;Intel;Intel Integrada;1.9
+494;Asus;Rog G752VL-UH71T;Gaming;17.3;24;Windows 10;1920;1080;1;1;127.33567457123111;2.6;1;Intel Core i7;256;1000;0;Nvidia;Nvidia Gaming (GTX/RTX);4.33
+1163;Lenovo;IdeaPad 310-15ISK;Notebook;15.6;8;Windows 10;1366;768;0;0;100.45466986113651;2.0;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;2.2
+97;Dell;Inspiron 3567;Notebook;15.6;4;Linux;1920;1080;0;0;141.21199808219862;2.0;0;Intel Core i3;256;0;0;AMD;AMD Estándar;2.2
+1081;Lenovo;IdeaPad Y900-17ISK;Gaming;17.3;32;Windows 10;1920;1080;0;1;127.33567457123111;2.7;1;Intel Core i7;512;0;1000;Nvidia;Nvidia Gaming (GTX/RTX);4.6
+945;Lenovo;IdeaPad Y700-15ACZ;Gaming;15.6;16;Windows 10;1920;1080;0;1;141.21199808219862;2.1;0;AMD;512;1000;0;AMD;AMD Estándar;2.5
+334;Asus;FX553VD-FY647T;Gaming;15.6;8;Windows 10;1920;1080;0;0;141.21199808219862;2.8;1;Intel Core i7;256;0;0;Nvidia;Nvidia Gaming (GTX/RTX);2.5
+550;Lenovo;IdeaPad 320-15ISK;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.0;0;Intel Core i3;128;0;0;Intel;Intel Integrada;2.2
+1148;HP;EliteBook 850;Notebook;15.6;8;Windows 7;1920;1080;0;0;141.21199808219862;2.3;0;Intel Core i5;256;0;0;Intel;Intel Integrada;1.88
+292;HP;17-BS037cl;Notebook;17.3;8;Windows 10;1600;900;0;0;106.11306214269258;2.0;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;2.54
+688;HP;17-Y002nv;Notebook;17.3;6;Windows 10;1920;1080;0;1;127.33567457123111;2.4;0;AMD;0;2000;0;AMD;AMD Estándar;2.65
+910;Dell;Latitude 5480;Notebook;14.0;8;Windows 10;1920;1080;0;0;157.3505121487356;2.8;1;Intel Core i5;256;0;0;Intel;Intel Integrada;1.6
+54;Acer;Aspire 3;Notebook;15.6;4;Windows 10;1366;768;0;0;100.45466986113651;2.4;0;Intel Core i3;0;1000;0;Intel;Intel Integrada;2.4
+1167;Lenovo;320-15ISK;Notebook;15.6;4;Windows 10;1920;1080;0;0;141.21199808219862;2.0;0;Intel Core i3;0;1000;0;Nvidia;Nvidia Básica (MX/900M);2.2
